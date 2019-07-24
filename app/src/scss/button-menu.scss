@@ -1,0 +1,45 @@
+.menu-button-is {
+  display: none;
+  height: 12px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 18px;
+
+  @media (max-width: 720px) {
+    display: block;
+  }
+}
+
+.menu-button-is__line {
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  transition: all 0.1s;
+  width: 100%;
+
+  &:first-child {
+    top: 0;
+
+    .menu-button-is.is-open & {
+      top: 50%;
+      transform: rotateZ(45deg);
+    }
+  }
+
+  &:nth-child(2) {
+    .menu-button-is.is-open & {
+      opacity: 0;
+    }
+  }
+
+  &:last-child {
+    top: 100%;
+
+    .menu-button-is.is-open & {
+      top: 50%;
+      transform: rotateZ(-45deg);
+    }
+  }
+}

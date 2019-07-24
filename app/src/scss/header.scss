@@ -1,0 +1,30 @@
+.header {
+  background: rgb(255, 255, 255);
+  height: 78px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+  @media (max-width: 720px) {
+    height: 50px;
+  }
+}
+
+.header__center {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1582px;
+  padding: 0 20px 0 20px;
+  width: 100%;
+}
+
+.header__logo {
+  height: 58px;
+  padding: 9px 0 0 0;
+
+  @media (max-width: 720px) {
+    height: 32px;
+  }
+}

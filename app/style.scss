@@ -1,0 +1,12 @@
+@import './src/scss/fonts.scss';
+@import './src/scss/header.scss';
+@import './src/scss/button-menu.scss';
+@import './src/scss/nav.scss';
+@import './src/scss/main.scss';
+@import './src/scss/slider.scss';
+
+html,
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}

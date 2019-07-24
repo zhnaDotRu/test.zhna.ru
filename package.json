@@ -1,0 +1,42 @@
+{
+  "name": "p1",
+  "author": "zhnaDotRu@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "browserslist": "^4.5.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.15.3",
+    "eslint-loader": "^2.1.2",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.16",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.1.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
